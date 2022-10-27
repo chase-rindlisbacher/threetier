@@ -84,7 +84,7 @@ function add_cell(field, value, row, id, static){ // adds a cell to a row
         cell.appendChild(input)                             // put the fully configured INPUT tag into the cell
     }    
 }
-
+  
 function change_value(){ // is triggered when a user changes a value in a cell of the table
     const params=this.id.split("-")                      // split the INPUT tag's id into its component parts
     switch(params[0]){                                   // Presentation layer data validation. params[0] is the table name
